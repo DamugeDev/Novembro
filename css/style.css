@@ -139,9 +139,4 @@ p {
   height: 20px;
 }
 
-#foto{
-  width: 150px; height:150px; border-radius: 50%;
-}
-#ft{
-  display:flex; align-items: center; margin-bottom: 400px;
-}
+
