@@ -139,5 +139,11 @@ p {
   height: 20px;
   font-family:'Times New Roman', Times, serif;
 }
+#dia{
+  font-size: 30px;
+  color:yellow;
+  margin-top: 5.2%;
+  padding-left: 41%;
+  font-family:'Times New Roman', Times, serif;}
 
 

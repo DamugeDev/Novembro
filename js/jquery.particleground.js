@@ -458,9 +458,18 @@ function relogio(){
   var hr=data.getHours();
   var min = data.getMinutes();
   var s= data.getSeconds();
-
+  var mes=data.getMonth();
+  var diad=window.document.getElementById("dia");
+  var dia=data.getDate();
   var tempo_total= hr + ":" + min+ ":" + s;
   var tempo=window.document.getElementById("div_relogio");
   tempo.innerHTML=tempo_total;
+  var meses=['Janeiro','Fevereiro','Março',
+            'Abril','Maio','Junho',
+            'Julho','Agosto','Setembro',
+             'Outubro','Novembro','Dezembro'];
+  diad.innerHTML=dia+' de '+meses[mes];
+  
 }
+
 setInterval(relogio,500);
