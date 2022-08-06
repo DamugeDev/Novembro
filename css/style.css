@@ -141,16 +141,6 @@ p {
 }
 
 
-#dia{
-  font-size: 30px;
-  color:yellow;
-  margin-top: 10%;
-  
-  font-family:'Times New Roman', Times, serif;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;}
+
 
 
